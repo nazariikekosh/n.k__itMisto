@@ -1,4 +1,12 @@
-.header{
-    background-color: red;
-    color: #fff;
+.img_1 {
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_2 {
+    z-index: -2;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
