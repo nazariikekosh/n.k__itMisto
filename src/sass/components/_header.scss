@@ -1,6 +1,7 @@
 .header{
     position: relative;
-    height: 320px;
+    overflow: hidden;
+    height: 405px;
     &__start {
         z-index: -1;
         position: absolute;
@@ -31,6 +32,9 @@
                 font-weight: 500;
                 font-size: 22px;
                 line-height: 27px;
+                &:hover {
+                    color: white;
+                }
             }
         }
     }
