@@ -1,0 +1,31 @@
+.teams {
+    margin-top: 127px;
+    overflow: hidden;
+    
+    .teams__about {
+        background: #033D20;
+    }
+
+    .teams__about-title {
+        color: #FFDDB6;
+        text-align: center;
+        font-family: 'Marck Script';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+        padding-top: 46px;
+        margin-bottom: 33px;
+    }
+
+    .teams__about-descrip {
+        color: #FFFDF8;
+        font-family: 'Marck Script';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 43px;
+        padding-left: 67px;
+        padding-right: 67px;
+    }
+}
