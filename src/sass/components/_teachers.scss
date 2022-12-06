@@ -1,0 +1,30 @@
+.teachers {
+    margin-top: 100px;
+} 
+
+.teacher{
+    max-width: 446px;
+}
+.teacher_descript {
+    background-color: rgb(236, 218, 218);
+    transform: translateY(-150px);
+    border-radius: 15px;
+    padding: 20px;
+ 
+}
+.descript_title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    // padding: 20px;
+ 
+}
+.descript_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #033D20;
+}
