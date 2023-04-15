@@ -1,52 +1,54 @@
-body{
+body {
 	overflow-x: hidden;
 }
 
-.logo-text{
-   color: #000;
-   font-family: 'Roboto';
-   font-size: 14px;
-   line-height: 16px;
-   margin-left: 12px;
+.logo-text {
+	color: #000;
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 16px;
+	margin-left: 12px;
 }
 
-ul li{
-   list-style: none;
+ul li {
+	list-style: none;
 }
 
-li a{
-   text-decoration: none;
-   color: #FF9100;
-   font-family: 'Roboto';
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 21px;
-   column-gap: 26px;
-   white-space: nowrap;
+li a {
+	text-decoration: none;
+	color: #FF9100;
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	column-gap: 26px;
+	white-space: nowrap;
 }
 
-li a:hover{
-   color: #D46363;
+li a:hover {
+	color: #D46363;
 }
 
-.btn, .btn__title{
-   display: inline-flex;
-   padding: 10px 26px;
-   background: #FF9100;
-   border-radius: 12px;
-   color: #fff !important;
-   text-decoration: none;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 21px;
+.btn,
+.btn__title {
+	display: inline-flex;
+	padding: 10px 26px;
+	background: #FF9100;
+	border-radius: 12px;
+	color: #fff !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
 }
 
-.btn__title{
-   margin-top: 26px;
+.btn__title {
+	margin-top: 26px;
 }
 
-.btn:hover, .btn__title:hover{
-   background-color: #D46363;
+.btn:hover,
+.btn__title:hover {
+	background-color: #D46363;
 }
 
 .icon-menu {
@@ -89,22 +91,22 @@ li a:hover{
 	background-color: #FF9100;
 }
 
-.hero__title p{
-   font-family: 'Roboto';
-   color: #374B5C;
-   font-weight: 500;
+.hero__title p {
+	font-family: 'Roboto';
+	color: #374B5C;
+	font-weight: 500;
 }
 
-.hero__title-head{
-   font-size: 28px;
+.hero__title-head {
+	font-size: 28px;
 }
 
-.hero__title h1{
-   font-family: 'Roboto Slab';
-   font-weight: 700;
-   font-size: 64px;
-   line-height: 84px;
-   color: #374B5C;
+.hero__title h1 {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 84px;
+	color: #374B5C;
 }
 
 .events__card {
@@ -245,45 +247,46 @@ li a:hover{
 	margin: 0 auto;
 }
 
-.text p{
+.text p {
 	text-align: center;
 	font-size: 18px;
 	line-height: 21px;
 	color: #374B5C;
 }
 
-.item{
-   min-height: 305px;
-   max-height: 305px;
-   min-width: 100%;
-   max-width: 100%;
-   background-color: #FF9100;
-   border-radius: 24px;
-   transition: all 0.4s ease 0s;
+.item {
+	min-height: 305px;
+	max-height: 305px;
+	min-width: 100%;
+	max-width: 100%;
+	background-color: #FF9100;
+	border-radius: 24px;
+	transition: all 0.4s ease 0s;
 }
 
-.item:hover{
-   background-color: #D46363;
-   box-shadow: 5px 5px 10px #d46363a0;
-   transform: scale(1.02);
-   cursor: pointer;
+.item:hover {
+	background-color: #D46363;
+	box-shadow: 5px 5px 10px #d46363a0;
+	transform: scale(1.02);
+	cursor: pointer;
 }
 
-.item h2, p{
-   color: #fff;
+.item h2,
+p {
+	color: #fff;
 }
 
-.item h2{
-   font-family: 'Roboto';
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 1.2;
+.item h2 {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
 }
 
-.item p{
-   font-family: 'Roboto';
-   font-size: 18px;
-   line-height: 1.2;
+.item p {
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 1.2;
 }
 
 .team {
@@ -437,12 +440,12 @@ li a:hover{
 .footer__link {
 	display: inline-block;
 	margin-bottom: 10px;
-   color: #fff;
+	color: #fff;
 	transition: all 0.3s ease 0s;
 }
 
 .footer__link:hover {
-   color: #fff;
+	color: #fff;
 	transform: scale(1.1);
 }
 
@@ -474,6 +477,16 @@ li a:hover{
 }
 
 .footer__copy {
-	text-align: center;
-	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.footer__copy a {
+	transition: 0.4s;
+}
+
+.footer__copy :hover {
+	text-shadow: #fff 1px 0 10px;
 }
