@@ -1,0 +1,150 @@
+@media (max-width: 991px){
+   .menu a{
+      display: none;
+   }
+
+   .icon-menu {
+      display: block;
+      margin: auto;
+   }
+
+   .event__describe{
+      font-size: 20px;
+   }
+
+   .team__image-992{
+      display: none;
+   }
+
+   .team__cards{
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .team__image img{
+      display: flex;
+      height: 140px;
+      width: 140px;
+   }
+}
+
+@media (max-width: 767px) {
+   header .container {
+      margin-bottom: 25px;
+   }
+
+   .event__describe{
+      font-size: 16px;
+   }
+
+   .hero__revers{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   .hero__title{
+    margin-top: 28px;
+   }
+
+   .btn__title{
+      display: flex;
+      justify-content: center;
+   }
+
+   .line{
+      margin-top: 0;
+   }
+
+   .big__btn{
+      font-size: 14px;
+      font-weight: 900;
+      padding: 12px 34px;
+   }
+   
+   .footer__main {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 576px){
+   .logo-text{
+      display: none;
+   }
+
+   .projects__text{
+      display: none;
+   }
+
+   .line h2{
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px;
+   }
+
+   .icon-menu{
+      display: block;
+      margin: auto 5px;
+   }
+
+   .team__line h2{
+      font-size: 18px;
+      font-weight: 700;
+   }
+
+   .team__image img{
+      height: 105px;
+      width: 105px;
+   }
+
+   .circles-team{
+      height: 12px;
+      width: 12px;
+   }
+}
+
+@media (max-width: 520px){
+   .header__btn{
+      font-size: 14px;
+      padding: 10px 18px;
+   }
+}
+
+@media (max-width: 480px){
+   .team__line{
+      margin-bottom: 24px;
+   }
+
+   .team__cards{
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+   .team__image img{
+      height: 85px;
+      width: 85px;
+   }
+
+   .partners__image{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .footer__main {
+      flex-direction: column;
+      gap: 0;
+   }
+
+   .footer__contacts {
+      display: none;
+   }
+
+   .footer__info {
+      margin-top: 14px;
+   }
+
+   .footer__logo {
+      display: none;
+   }
+}
